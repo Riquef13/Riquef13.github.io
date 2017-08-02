@@ -1,0 +1,33 @@
+
+body {
+	 color:purple; 
+	 background-color:black;
+}
+
+h1 {
+	font-size: 32px; 
+	color: orange;
+	font-family: 'vibur';
+}
+
+p { 
+		background-color: purple;
+		text-align: center;
+		font-family: 'Poiret One', cursive; color: white ;
+		border:2px solid pink;
+		padding: 10px; 
+	}
+
+.slider img {
+	height: 150px;
+	display: block;
+	margin: 0 auto;
+}
+
+.slider > div {
+	background: rgba(255,255,255,0.2);
+}
+
+div.slick-slide {
+	border: 1px solid rgba(255,255,255,0.2);
+}

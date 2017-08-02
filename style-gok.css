@@ -1,0 +1,14 @@
+.jumbotron {
+	background-color : yellow; 
+	text-align: center;
+	font-family: 'Lobster Two', cursive;
+}
+
+p {
+	font-family: 'Rancho', cursive;
+	font-size: 20px;
+}
+
+img {
+	max-width: 100%
+}

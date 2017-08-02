@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head> 
+<title> ALL ABOUT ME </title>
+	<meta charset="UTF-8">
+	<link href="https://fonts.googleapis.com/css?family=Vibur" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Vibur" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" href="slick/slick.css">
+	<link rel="stylesheet" href="slick/slick-theme.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body style="font-family: arial ; color : purple; background-color:black;">
+	
+	<nav class="navbar navbar-default">
+	  <div class="container-fluid">
+	    <!-- Brand and toggle get grouped for better mobile display -->
+	    <div class="navbar-header">
+	      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+	        <span class="sr-only">Toggle navigation</span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </button>
+	      <a class="navbar-brand" href="#">Rique Fernandez</a>
+	    </div>
+
+	    <!-- Collect the nav links, forms, and other content for toggling -->
+	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+	      
+	     
+	      <ul class="nav navbar-nav navbar-right">
+	        <li class="active"><a href="index.html">Home</a></li>
+	        <li><a href="about.html">About Me</a></li>
+	        <li class="dropdown">
+	          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Georgia O'Keefe <span class="caret"></span></a>
+	          <ul class="dropdown-menu">
+	            <li><a href="home-gok.html">Home</a></li>
+	            <li><a href="about-gok.html">About</a></li>
+	          </ul>
+	        </li>
+	        <li><a href="contact.html">Contact</a></li>
+	      </ul>
+	    </div><!-- /.navbar-collapse -->
+	  </div><!-- /.container-fluid -->
+	</nav>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				
+				<div class="slider">
+				  <div>
+				  	<img src="pics/selfie.JPG" alt="selfie">
+				  </div>
+				  <div>
+				  	<img src="pics/bff.JPG" alt ="bff">
+				  </div>
+				  <div>
+				  	<img src="pics/brother.JPG" alt ="brother">
+				  </div>
+				  <div>
+				  	<img src="pics/garden.jpg" alt="garden">
+				  </div>
+				  <div>
+				  	<img src="pics/jr.jpg" alt="jr">
+				  </div>
+				  <div>
+				  	<img src="pics/prom.JPG" alt="prom">
+				  </div>
+				  
+				</div>
+
+
+				<div class="jumbotron">
+				  <h1>Rique Fernandez</h1>
+				  <h2>All about me!</h2>
+
+				  <h3>Fun facts:</h3>
+
+				  <ul class="list-group">
+					  <li class="list-group-item">Full name: Rique Natasha Tatiana Fernandez-Lymon</li>
+					  <li class="list-group-item">Birthday: May 27,2000</li>
+					  <li class="list-group-item">Age: 17</li>
+					  <li class="list-group-item">Parents: Matilda Fernandez && Davon Lymon</li>
+					  <li class="list-group-item">Hometown: Espanola, New Mexico </li>
+					  <li class="list-group-item">Hobbies: Art, gardening, swimming, and sleeping.</li>
+					  <li class="list-group-item">Favorite color: green</li>
+					  <li class="list-group-item">Favorite foods: frito pies, tacos, chicken alfredo, sushi, ect. </li>
+					  <li class="list-group-item"> Genre of music: RnB, Punk rock, Rap, and Country. </li>
+					  <li class="list-group-item"> Favorite book: Fallen series </li>
+				  </ul>
+
+				  <p><a class="btn btn-primary btn-lg" href="about.html" role="button">About Me</a></p>
+				</div>
+
+				
+			</div>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="slick/slick.min.js"></script>
+
+	<script>
+		$(document).ready(function(){
+		  $('.slider').slick({
+		  	 infinite: true,
+			 slidesToShow: 3,
+			 slidesToScroll: 3,
+			 dots: true
+		  });
+		});
+	</script>
+</body>
+</html>
